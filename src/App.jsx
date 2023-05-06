@@ -28,7 +28,7 @@ function App() {
         <video controls poster={person.poster}>
           <source src={mp} />
         </video>
-        <p>{person.title}</p>
+        <p className="title">{person.title}</p>
         <p className="chname">
           {person.channelname}
           <span className="check"> &#9989;</span>

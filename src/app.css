@@ -78,10 +78,21 @@ p{
         flex-direction: column;
 
     }
-    video{
-        width: 100%;
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    p{
+    video{
+        padding-top: 24px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        width: 320px;
+        height: 420px;
+    }
+    .title{
         width: 100%;
+        padding: 10px;
     }
 }
